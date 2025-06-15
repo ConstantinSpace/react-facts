@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #303030;
+  color: white;
+}
+
+.sheader {
+  padding: 0.5rem;
+  background-color: #222;
+  color: #61dafb;
+}
+
+.snav {
+  display: flex;
+  align-items: center; /* aliniere verticală */
+  gap: 1.5rem; /* spațiu între imagine și text */
+}
+
+nav > img {
+  width: 100px;
+  /* dimensiunea imaginii */
+}
+
+.smain {
+  padding: 60px 30px;
+  background-image: url("./assets/react.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.smain > h1 {
+  font-size: 2.4rem;
+}
+
+.facts {
+  margin-top: 40px;
+}
+
+.facts > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.facts > li::marker {
+  color: #61dafb;
+}
